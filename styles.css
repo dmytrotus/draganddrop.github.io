@@ -1,0 +1,22 @@
+body {
+  margin: 0;
+}
+
+.container {
+  background-color: #333;
+  padding: 1rem;
+  padding-bottom: 5rem;
+  margin-top: 1rem;
+}
+.d-flex{
+  display: flex;
+}
+.draggable{
+  background-color: #fff;
+  padding: 20px 30px;
+  margin: 5px;
+}
+.draggable:first-of-type{
+  transform: scale(1.2);
+  margin-right: 10px;
+}
